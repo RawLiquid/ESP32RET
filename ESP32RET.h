@@ -30,6 +30,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <Arduino.h>
 #include "esp32_can.h"
 #include "sys_io.h"
+#include "SD.h"
 
 enum STATE {
     IDLE,
@@ -75,8 +76,5 @@ void processDigToggleFrame(CAN_FRAME &frame);
 void sendDigToggleMsg();
 void sendMarkTriggered(int which);
 
+
 #endif /* GVRET_H_ */
-
-
-
-

@@ -55,7 +55,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #define CFG_BUILD_NUM   362
 #define CFG_VERSION "ESP32RET Beta Mar 06 2019"
-#define EEPROM_VER      0x21
+#define EEPROM_VER      0x22
 
 #define MARK_LIMIT  6   //# of our analog input pins to use for marking. Defaults to all of them. Send voltage to pin to trigger it
 
@@ -69,7 +69,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #define BLINK_SLOWNESS  100 
 
 //How many devices to allow to connect to our WiFi telnet port?
-#define MAX_CLIENTS 1
+#define MAX_CLIENTS 2
 
 struct FILTER {  //should be 10 bytes
     uint32_t id;
